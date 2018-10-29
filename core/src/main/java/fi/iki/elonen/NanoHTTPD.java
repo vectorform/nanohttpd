@@ -1783,7 +1783,7 @@ public abstract class NanoHTTPD {
 
     private final int myPort;
 
-    private volatile ServerSocket myServerSocket;
+    public volatile ServerSocket myServerSocket;
 
     private ServerSocketFactory serverSocketFactory = new DefaultServerSocketFactory();
 
