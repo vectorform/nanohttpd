@@ -320,7 +320,7 @@ public abstract class NanoHTTPD {
 
     public final int myPort;
 
-    private volatile ServerSocket myServerSocket;
+    public volatile ServerSocket myServerSocket;
 
     public ServerSocket getMyServerSocket() {
         return myServerSocket;
